@@ -1,0 +1,52 @@
+/*Partout sur le site  */
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*Titre principal sur la page d'accueil  */
+.titrep{
+  font-size: 40px;
+}
+
+/*Barre de navigation  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+/*Animation quand la souris passe au dessus  */
+li a:hover {
+  background-color: #111;
+}
+
+
+.conteneur{  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.element{
+  background-color: #F0F3BD;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.element h2{
+  
+}
